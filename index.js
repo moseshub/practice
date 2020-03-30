@@ -6,6 +6,6 @@ function convertFtoI() {
 
     function convertItoF() {
         var inchesInput = document.getElementsByName('inchesUnit')
-        var inchesToFeetResult = inchesInput * 12
+        var inchesToFeetResult = inchesInput / 12
         alert(`${inchesInput} feet is equal to ${inchesToFeetResult} feet!`);
     }    
